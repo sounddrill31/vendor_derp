@@ -200,8 +200,8 @@ include vendor/derp/config/art.mk
 include vendor/derp/config/version.mk
 
 # GApps
-WITH_GMS := true
-$(call inherit-product, vendor/gms/products/gms.mk)
+WITH_GMS := false
+#$(call inherit-product, vendor/gms/products/gms.mk)
 
 # Pixel Framework
 $(call inherit-product, vendor/pixel-framework/config.mk)
